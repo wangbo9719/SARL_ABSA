@@ -2,22 +2,22 @@
 
 This repo contains the source code of the paper accepted by Findings of EMNLP'2021. "[Eliminating Sentiment Bias for Aspect-Level Sentiment Classification with Unsupervised Opinion Extraction](https://aclanthology.org/2021.findings-emnlp.258.pdf)"
 
-##1. Thanks
+## 1. Thanks
 The repository is partially based on [huggingface transformers](https://github.com/huggingface/transformers) and [Position-Aware Tagging for Aspect Sentiment Triplet Extraction (In EMNLP 2020)](https://github.com/xuuuluuu/SemEval-Triplet-data).
 
-##2. Installing requirement packages
+## 2. Installing requirement packages
 - conda create -n absa python=3.6
 - source activate absa
 - pip install tqdm pandas torch==1.7.0 tensorboardX boto3 requests regex sacremoses sentencepiece lxml sklearn
 - pip install nltk spacy==2.3.5 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz networkx
 
-##3. Dataset
+## 3. Dataset
 - The pre-processed datasets for SARL are in "./dataset/bias_xx". 
 - Note, the pre-processed Twitter do not contained in this file due to the limitation of the file size. 
 - The bias labels are derived from SentiWordNet and the opinion annotations are derived from [Position-Aware Tagging for Aspect Sentiment Triplet Extraction (In EMNLP 2020)](https://github.com/xuuuluuu/SemEval-Triplet-data). 
 
 
-##4. Training and Test
+## 4. Training and Test
 Run the following commands for getting the similar results reported in paper. 
 Note, the results are not very stable, several times running with different seeds are needed for reproducing the reported results. . 
 
