@@ -2,6 +2,8 @@
 
 This repo contains the source code of the paper accepted by Findings of EMNLP'2021. "[Eliminating Sentiment Bias for Aspect-Level Sentiment Classification with Unsupervised Opinion Extraction](https://aclanthology.org/2021.findings-emnlp.258.pdf)"
 
+🚩 If possible, could you please star this project. ⭐ ↗️
+
 ## 1. Thanks
 The repository is partially based on [huggingface transformers](https://github.com/huggingface/transformers) and [Position-Aware Tagging for Aspect Sentiment Triplet Extraction (In EMNLP 2020)](https://github.com/xuuuluuu/SemEval-Triplet-data).
 
